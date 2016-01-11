@@ -1,0 +1,30 @@
+{
+  "name": "text-to-emoji",
+  "version": "1.0.0",
+  "description": "translate english to emoji",
+  "scripts": {
+    "prod": "NODE_ENV=prod webpack -p",
+    "dev": "webpack -w --progress --colors",
+    "start": "npm run dev"
+  },
+  "author": "Brendan Sudol",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.3.26",
+    "babel-loader": "^6.2.1",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "css-loader": "^0.23.1",
+    "emojilib": "^1.1.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "json-loader": "^0.5.4",
+    "lodash": "^3.10.1",
+    "node-sass": "^3.4.2",
+    "qs": "^3.1.0",
+    "react": "^0.14.5",
+    "react-copy-to-clipboard": "^3.0.4",
+    "react-dom": "^0.14.5",
+    "sass-loader": "^3.1.2",
+    "webpack": "^1.12.9"
+  }
+}
