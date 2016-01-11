@@ -2,19 +2,21 @@ html {
     font-size: 18px;
 }
 
-body, h1, h2, h3, h4, h5, h6 {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+body {
+    font-family: 'Source Code Pro', Consolas, monospace, sans-serif;
 }
 
 .container {
-    max-width: 580px;
+    max-width: 500px;
 }
+
 
 /*
 * center brand text vertically with robot ears 
 * (not with entire img) 
 */
+
 .brand {
     position: relative;
-    top: 5px;
+    top: 4px;
 }

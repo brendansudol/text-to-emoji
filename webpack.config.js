@@ -19,7 +19,7 @@ module.exports = {
       },
       { 
         test: /\.scss$/, 
-        loader: ExtractTextPlugin.extract('css!sass') 
+        loader: ExtractTextPlugin.extract('css?url=false!sass') 
       },
       { 
         test: /\.json$/, 

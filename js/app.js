@@ -9,10 +9,11 @@ require('../sass/app.scss');
  * js
  */
 
-var React = require('react');
-var ReactDOM = require('react-dom');
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-var App = require('./components/App.jsx');
+import App from './components/App.jsx';
+import './modernizr.js';
 
 
 ReactDOM.render(<App />, document.getElementById('content'));
